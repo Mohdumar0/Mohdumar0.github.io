@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Unbounded:wght@600&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine&effect=emboss">
+  <link rel="preconnect" href="https://rsms.me/">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.5/css/unicons.css">
+  <link rel="stylesheet" href="css/resources_v2.css">
+  <title>Kainat Yasmeen</title>
+<!--   <link rel="icon" href="/assets/cat.png" type="image/x-icon"> -->
+  <!-- <a href="https://www.flaticon.com/free-icons/strawberry" title="strawberry icons">Strawberry icons created by Freepik -
+        Flaticon</a> -->
+</head>
+<body class="body flex">
+  <div>
+    <header class="primary-header flex">
+      <!-- <a class="logo" href="./index.html#">
+                <img src="/assets/svgs/estate.svg" />
+            </a> -->
+      <button class="mobile-nav-toggle" aria-controls="navul" aria-expanded="false">
+        <span class="sr-only">Menu</span>
+        <div id="menu" class="hamburgerMenu">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+        </div>
+      </button>
+      <div class="herotext delay1">
+        <a href="#">Kainat</a>
+      </div>
+      <!-- <div class="mobile herotext delay1">
+                <a href="#">Kainat</a>
+            </div> -->
+      <nav>
+        <ul role="list" class="primary-navigation flex" data-visible="false">
+
+          <!-- <li class="navitem delay1">
+                        <a href="#"><span aria-hidden="true" style="font-family:'Roboto',sans-serif;"><i
+                                    class="uil uil-corner-down-right"></i>/</span>top</a>
+                    </li> -->
+          <li class="navitem delay2">
+            <a href="#papers">
+              <span aria-hidden="true" style="font-family:'Roboto',sans-serif;">
+                <i class="uil uil-corner-down-right"></i>/</span>research
+            </a>
+          </li>
+
+          <li class="navitem delay3">
+            <a href="#Awards"><span aria-hidden="true" style="font-family:'Roboto',sans-serif;"><i
+                  class="uil uil-corner-down-right"></i>/</span>Awards</a>
+          </li>
+
+          <!-- <li class="navitem delay4">
+            <a href="#activities">
+              <span aria-hidden="true" style="font-family:'Roboto',sans-serif;">
+                <i class="uil uil-corner-down-right"></i>/</span>activities
+            </a>
+          </li> -->
+
+          <li class="navitem delay5">
+            <a href="https://scholar.google.com/citations?user=HyDPL0wAAAAJ&hl=en&oi=ao/" target="_blank" rel="noopener noreferrer me"><span
+                aria-hidden="true" style="font-family:'Roboto',sans-serif;"><i
+                  class="uil uil-external-link-alt"></i>/</span>Research Papers</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+
+    <main class="mainbody">
+      <!-- <section class="full-page-slide"> -->
+
+      <section>
+
+        <div id="about-me" class="post delay6 about-me flex">
+          <h1 class="titleh1">Mohd Umar</h1>
+          <div class="about-grid grid">
+            <div class="card__content dp card__img">
+              <img loading="lazy" src="/assets/dp_new.jpeg">
+            </div>
+            <div class="card">
+
+              <div class="card__content">
+                <h2 class="card-title">About Me</h2>
+
+                <p class="card-description">
+                  I am a PhD student in the
+                  <span><a href="https://essrg.iiitd.edu.in/" target="_blank" rel="noopener noreferrer me"> A2A
+                      lab</a></span> at
+                  IIIT-Delhi, where I am very fortunate to be advised by <span><a
+                      href="https://diptapriyomajumdar.wixsite.com/toto" target="_blank" rel="noopener noreferrer me">Dr.
+                      Diptapriyo majumdar </a></span>.
+                </p><br>
+                <h2 class="card-title">My research</h2>
+                <p class="card-description">
+                 My research interests are broadly in Algorithms and Complexity. In particular, from theoretical perspective, I am interested in Parameterized Algorithms, and its applications,
+particularly in access control in information security. 
+  In addition to that, I also have keen interest in Approximation Algorithms, and Algorithms for Graph Classes.
+                    </span>
+                </p><br>   
+</body>   
+</html>
